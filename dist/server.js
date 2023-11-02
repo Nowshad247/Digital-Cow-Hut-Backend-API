@@ -17,10 +17,9 @@ const mongoose_1 = __importDefault(require("mongoose"));
 const app_1 = __importDefault(require("./app"));
 const index_1 = __importDefault(require("./config/index"));
 const apiErrors_1 = __importDefault(require("./errors/apiErrors"));
-const logger_1 = require("./shared/logger");
 process.on('uncaughtException', error => {
     console.log('uncaughtException');
-    logger_1.errorlogger.error(error);
+    console.error(error);
     process.exit(1);
 });
 let server;
@@ -34,12 +33,12 @@ function bootstrap() {
             });
         }
         catch (err) {
-            logger_1.errorlogger.error('Failed to connect database', err);
+            console.log('Failed to connect database', err);
         }
         process.on('unhandledRejection', error => {
             if (server) {
                 server.close(() => {
-                    logger_1.errorlogger.error(error);
+                    console.log(error);
                     process.exit(1);
                 });
                 bootstrap();
@@ -53,7 +52,6 @@ function bootstrap() {
 }
 bootstrap();
 process.on('SIGTERM', () => {
-    logger_1.logger.info('SIGTERM is received');
     if (server) {
         server.close();
     }
