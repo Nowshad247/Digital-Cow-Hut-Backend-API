@@ -1,0 +1,18 @@
+{
+  service: 'user-service',
+  level: 'error',
+  message: 'Failed to connect database mongodb+srv URI cannot have port number',
+  stack: 'MongoParseError: mongodb+srv URI cannot have port number\n' +
+    '    at new ConnectionString (D:\\Lavel 2\\Assignment - 3\\node_modules\\mongodb-connection-string-url\\src\\index.ts:201:15)\n' +
+    '    at parseOptions (D:\\Lavel 2\\Assignment - 3\\node_modules\\mongodb\\src\\connection_string.ts:256:15)\n' +
+    '    at new MongoClient (D:\\Lavel 2\\Assignment - 3\\node_modules\\mongodb\\src\\mongo_client.ts:368:34)\n' +
+    '    at NativeConnection.createClient (D:\\Lavel 2\\Assignment - 3\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:288:14)\n' +
+    '    at NativeConnection.openUri (D:\\Lavel 2\\Assignment - 3\\node_modules\\mongoose\\lib\\connection.js:738:34)\n' +
+    '    at Mongoose.connect (D:\\Lavel 2\\Assignment - 3\\node_modules\\mongoose\\lib\\index.js:404:15)\n' +
+    '    at D:\\Lavel 2\\Assignment - 3\\src\\server.ts:19:20\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at D:\\Lavel 2\\Assignment - 3\\src\\server.ts:8:71\n' +
+    '    at new Promise (<anonymous>)',
+  label: 'Error Level Log',
+  timestamp: '2023-11-02T17:29:49.134Z'
+}

@@ -159,6 +159,11 @@
             "date": 1698939756458,
             "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-11-02-21-error.log",
             "hash": "a489d87dc015dc639785b5a6000bdc0d74a59f7856ef8036bb3a18ecb0f2742b"
+        },
+        {
+            "date": 1698946187522,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-11-02-23-error.log",
+            "hash": "ee5a26ae7217fd88db919d8c64572fc8a37bafaadc102f49126de22c08b791bc"
         }
     ],
     "hashType": "sha256"
