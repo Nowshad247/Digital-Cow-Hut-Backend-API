@@ -1,0 +1,28 @@
+{
+  statusCode: 406,
+  level: 'error',
+  service: 'user-service',
+  label: 'Error Level Log',
+  timestamp: '2023-09-08T10:05:03.652Z'
+}
+{
+  statusCode: 406,
+  level: 'error',
+  service: 'user-service',
+  label: 'Error Level Log',
+  timestamp: '2023-09-08T10:07:38.582Z'
+}
+{
+  statusCode: 406,
+  level: 'error',
+  service: 'user-service',
+  label: 'Error Level Log',
+  timestamp: '2023-09-08T10:10:01.749Z'
+}
+{
+  statusCode: 406,
+  level: 'error',
+  service: 'user-service',
+  label: 'Error Level Log',
+  timestamp: '2023-09-08T10:12:13.801Z'
+}

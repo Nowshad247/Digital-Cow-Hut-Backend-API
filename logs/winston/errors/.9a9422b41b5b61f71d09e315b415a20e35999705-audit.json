@@ -1,0 +1,55 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Lavel 2\\Project For Use\\logs\\winston\\errors\\.9a9422b41b5b61f71d09e315b415a20e35999705-audit.json",
+    "files": [
+        {
+            "date": 1693809509601,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\errors\\error-2023-09-04-12-error.log",
+            "hash": "854ee31ec066f829989826670936b277856d1cf3c4c8338aa4910885e09d5e19"
+        },
+        {
+            "date": 1693812199330,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\errors\\error-2023-09-04-13-error.log",
+            "hash": "d34bf7b949247fbfade0303c0942253dc99f68073fb3835a9f950fc5a2a0cc9b"
+        },
+        {
+            "date": 1693926038418,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\errors\\error-2023-09-05-21-error.log",
+            "hash": "4ffcd9bc4a95f3292378a35622e943183edaba9303418ea7ecdfb862f7782f55"
+        },
+        {
+            "date": 1693931685603,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\errors\\error-2023-09-05-22-error.log",
+            "hash": "e22205bd9830ea4705942ed864c6e6f844addf829ba74093e57c246c0ceb78d2"
+        },
+        {
+            "date": 1694154279875,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\errors\\error-2023-09-08-12-error.log",
+            "hash": "53b948875e31023df8d5e96999a04fa0c7b31034f7ff733e25714a6c069fe530"
+        },
+        {
+            "date": 1694156402749,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\errors\\error-2023-09-08-13-error.log",
+            "hash": "b76977bfe699824cc45aeff787980b7da07518a5d0d3b50584415dbd499a0694"
+        },
+        {
+            "date": 1694160168975,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\errors\\error-2023-09-08-14-error.log",
+            "hash": "63af6cbe23bf41b93a919e6d53eefd50cd4283c853e6ae44db2d529324923f8d"
+        },
+        {
+            "date": 1694164660431,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\errors\\error-2023-09-08-15-error.log",
+            "hash": "2eb162a5c4720fe056b810b0c651ce277bbaaaedaa8e3490573fcad78a887731"
+        },
+        {
+            "date": 1694167494300,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\errors\\error-2023-09-08-16-error.log",
+            "hash": "3fad1bd1c48e1ce10847e227120dcbd07fab25776a48b82f02a54b0352b0fb24"
+        }
+    ],
+    "hashType": "sha256"
+}

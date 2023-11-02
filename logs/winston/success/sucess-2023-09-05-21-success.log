@@ -1,0 +1,14 @@
+{
+  message: ' DataBase is Connected ',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-09-05T15:00:38.839Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-09-05T15:00:38.851Z'
+}

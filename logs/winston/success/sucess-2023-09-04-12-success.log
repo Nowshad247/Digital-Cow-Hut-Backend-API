@@ -1,0 +1,42 @@
+{
+  message: ' DataBase is Connected ',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-09-04T06:38:29.697Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-09-04T06:38:29.710Z'
+}
+{
+  message: ' DataBase is Connected ',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-09-04T06:40:30.726Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-09-04T06:40:30.739Z'
+}
+{
+  message: ' DataBase is Connected ',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-09-04T06:56:03.056Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: 'right meow!',
+  timestamp: '2023-09-04T06:56:03.066Z'
+}

@@ -1,0 +1,7 @@
+{
+  statusCode: 409,
+  level: 'error',
+  service: 'user-service',
+  label: 'Error Level Log',
+  timestamp: '2023-09-08T08:28:05.103Z'
+}

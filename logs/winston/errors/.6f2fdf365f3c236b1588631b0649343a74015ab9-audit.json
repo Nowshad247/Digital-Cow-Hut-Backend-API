@@ -1,0 +1,165 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\.6f2fdf365f3c236b1588631b0649343a74015ab9-audit.json",
+    "files": [
+        {
+            "date": 1698044296428,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-23-12-error.log",
+            "hash": "2d67f89517f255024ea6cf7f48b27c0b1331a224dfa381102994fac319f596e9"
+        },
+        {
+            "date": 1698044494407,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-23-13-error.log",
+            "hash": "323e6964c7e7d846f47ceae413fb450b1e89e326abdd414b539ef50c4cce0d59"
+        },
+        {
+            "date": 1698075227671,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-23-21-error.log",
+            "hash": "a16f2ef34455119aa9d297b8d995bed58b019b9b828c48199c466557a3d06a17"
+        },
+        {
+            "date": 1698082955071,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-23-23-error.log",
+            "hash": "23771f95e9aa3dc46f1a12be73d8a4e1b792823c715d81a847eae997d1a57b00"
+        },
+        {
+            "date": 1698210724834,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-25-11-error.log",
+            "hash": "32a1659f06dfe1af02f6744d544710a2926117f75a2dec35c5bc68027f349d04"
+        },
+        {
+            "date": 1698213656272,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-25-12-error.log",
+            "hash": "66dfd85a44bb569ca737c049da14cc26d589060be7049ec12ef653600bc5a5b0"
+        },
+        {
+            "date": 1698217690978,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-25-13-error.log",
+            "hash": "3a3d2457edf32293561cf7abd314df5213b6e775a61cc4a2e290f7c0ed0c64c6"
+        },
+        {
+            "date": 1698520734496,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-29-01-error.log",
+            "hash": "14b2e17a2ca1d9a1a07101bf7a2b97153ed9879b44984ebc14a59f459aa53159"
+        },
+        {
+            "date": 1698523311260,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-29-02-error.log",
+            "hash": "74c75c2e3c285f3abf59e698073981d458a23b5700803559fc1c183479f3453b"
+        },
+        {
+            "date": 1698554260654,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-29-10-error.log",
+            "hash": "f5ea6dc500cb0de854a5a48bad8d63d21b5f7bd47223aae03a9ed46f4ef521de"
+        },
+        {
+            "date": 1698555741301,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-29-11-error.log",
+            "hash": "d8668054a835da52334cb0141e3fea6d002d91b2ef9a24ff2353d7862af773a6"
+        },
+        {
+            "date": 1698559266973,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-29-12-error.log",
+            "hash": "515ea2fff9c8263199f312e051e2c835a7419ce89dfa4c1d86e93a3984c87d69"
+        },
+        {
+            "date": 1698563017075,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-29-13-error.log",
+            "hash": "18b3a3e50a62843227b293035d36f2f889b0433902503045b5321cc02cbb46c9"
+        },
+        {
+            "date": 1698566414701,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-29-14-error.log",
+            "hash": "c3b8040c36806f1b35d3fbf97609a48154c9825134d6880089358b848458cbb5"
+        },
+        {
+            "date": 1698736813466,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-31-13-error.log",
+            "hash": "c7c394deff064103a8aa8d45b61420ce2218d5f724d21d139d14b8d4001e8af1"
+        },
+        {
+            "date": 1698739323049,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-31-14-error.log",
+            "hash": "131303ad2312e18d055f32fe88dab6ef8aa44e67e8eb9d1b4318149eb7a06ee9"
+        },
+        {
+            "date": 1698763239769,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-31-20-error.log",
+            "hash": "d100ec5f4332ba9ef0f5d784d468f7d26071815d4bbc4db745c221301706fc6e"
+        },
+        {
+            "date": 1698764462892,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-31-21-error.log",
+            "hash": "7b5efdafa07236be73af586c4907a8f834918b767521fb4fae13fc7728c35209"
+        },
+        {
+            "date": 1698770627612,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-10-31-22-error.log",
+            "hash": "aaf8e08edaa3b7816ae28b54239520ec2ce53f609d74171016aedc8a87fa8ddf"
+        },
+        {
+            "date": 1698780700618,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-11-01-01-error.log",
+            "hash": "60168430adef253f720becfbd39fdbee5dae58b3f89a1b2548e6dc871547a428"
+        },
+        {
+            "date": 1698782444359,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-11-01-02-error.log",
+            "hash": "cd5fb2cc2c7cb6c9fa2f7503d5fd5632791f0b51c6f44d8929804944aaff39e7"
+        },
+        {
+            "date": 1698818368858,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-11-01-11-error.log",
+            "hash": "a017710a99db2538a9f294ab3fc252f1c562ada0cc8e850c9967dd26b67f8d1d"
+        },
+        {
+            "date": 1698818568584,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-11-01-12-error.log",
+            "hash": "5bb7560339e4a5caf3a665593862d73ed2853e857a7cf8eb5f652853ba0c6af4"
+        },
+        {
+            "date": 1698822015744,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-11-01-13-error.log",
+            "hash": "08e0bec0d8990bc6aaac67c8b7379ceb1c32f30aee16896396674a41902c5f60"
+        },
+        {
+            "date": 1698827310417,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-11-01-14-error.log",
+            "hash": "b30b92a872aa2b51ca4abab1cd74e22df83c48932c62233d87676dd5d88bc404"
+        },
+        {
+            "date": 1698867600100,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-11-02-01-error.log",
+            "hash": "0896593733a65d817694df7360aed5c93c3c5e17a6f873d6a2173fd967cbea0c"
+        },
+        {
+            "date": 1698869138877,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-11-02-02-error.log",
+            "hash": "724f9cb7f7c77e31143811bf30f9870f1ae7d30fd7b0de6d5142259d57e47942"
+        },
+        {
+            "date": 1698873438024,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-11-02-03-error.log",
+            "hash": "a2cecbfaccd7a2bf78e7757dba0780db6697ab769164591f5165bba067b2e737"
+        },
+        {
+            "date": 1698910026271,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-11-02-13-error.log",
+            "hash": "53c0ebfde599a68da3380340a42e0de68032502a0fce05a4df4b53a989bc6e64"
+        },
+        {
+            "date": 1698933967035,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-11-02-20-error.log",
+            "hash": "59c18ca29baa56b3b36057e0d07b3529044e35c5c8b2c2ddd1054e1ef1b08923"
+        },
+        {
+            "date": 1698939756458,
+            "name": "D:\\Lavel 2\\Assignment - 3\\logs\\winston\\errors\\error-2023-11-02-21-error.log",
+            "hash": "a489d87dc015dc639785b5a6000bdc0d74a59f7856ef8036bb3a18ecb0f2742b"
+        }
+    ],
+    "hashType": "sha256"
+}

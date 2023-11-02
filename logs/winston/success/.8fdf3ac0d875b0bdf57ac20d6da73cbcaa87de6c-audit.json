@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Lavel 2\\PH-UNV\\Stater-template-ts-auth\\logs\\winston\\success\\.8fdf3ac0d875b0bdf57ac20d6da73cbcaa87de6c-audit.json",
+    "files": [
+        {
+            "date": 1693945407153,
+            "name": "D:\\Lavel 2\\PH-UNV\\Stater-template-ts-auth\\logs\\winston\\success\\sucess-2023-09-06-02-success.log",
+            "hash": "fcac0823c3a167d88e2c4977ca27856af5625023b98d5aacb5f3691c3d48ea86"
+        },
+        {
+            "date": 1693979403143,
+            "name": "D:\\Lavel 2\\PH-UNV\\Stater-template-ts-auth\\logs\\winston\\success\\sucess-2023-09-06-11-success.log",
+            "hash": "dd91698de0bd58ce140171978735b1b7b0f5fab9de6533c100132658c76d96d8"
+        },
+        {
+            "date": 1693980877494,
+            "name": "D:\\Lavel 2\\PH-UNV\\Stater-template-ts-auth\\logs\\winston\\success\\sucess-2023-09-06-12-success.log",
+            "hash": "88b2d21d95eff21edf0035ee3a22768d82c61782a847d8e62254a26fea187382"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,56 @@
+{
+  statusCode: 406,
+  level: 'error',
+  service: 'user-service',
+  label: 'Error Level Log',
+  timestamp: '2023-09-08T09:30:39.635Z'
+}
+{
+  statusCode: 406,
+  level: 'error',
+  service: 'user-service',
+  label: 'Error Level Log',
+  timestamp: '2023-09-08T09:31:24.390Z'
+}
+{
+  statusCode: 406,
+  level: 'error',
+  service: 'user-service',
+  label: 'Error Level Log',
+  timestamp: '2023-09-08T09:33:06.654Z'
+}
+{
+  statusCode: 406,
+  level: 'error',
+  service: 'user-service',
+  label: 'Error Level Log',
+  timestamp: '2023-09-08T09:37:01.218Z'
+}
+{
+  statusCode: 406,
+  level: 'error',
+  service: 'user-service',
+  label: 'Error Level Log',
+  timestamp: '2023-09-08T09:39:39.856Z'
+}
+{
+  statusCode: 406,
+  level: 'error',
+  service: 'user-service',
+  label: 'Error Level Log',
+  timestamp: '2023-09-08T09:42:39.794Z'
+}
+{
+  statusCode: 406,
+  level: 'error',
+  service: 'user-service',
+  label: 'Error Level Log',
+  timestamp: '2023-09-08T09:51:00.682Z'
+}
+{
+  statusCode: 409,
+  level: 'error',
+  service: 'user-service',
+  label: 'Error Level Log',
+  timestamp: '2023-09-08T09:51:37.598Z'
+}

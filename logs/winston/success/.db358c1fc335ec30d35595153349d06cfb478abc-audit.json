@@ -1,0 +1,55 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Lavel 2\\Project For Use\\logs\\winston\\success\\.db358c1fc335ec30d35595153349d06cfb478abc-audit.json",
+    "files": [
+        {
+            "date": 1693809509578,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\success\\sucess-2023-09-04-12-success.log",
+            "hash": "612465b1dd9fe6df21e74c14c32b930330d7ed6ac0c8477efb339bef5a230704"
+        },
+        {
+            "date": 1693812199312,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\success\\sucess-2023-09-04-13-success.log",
+            "hash": "b5f769c584f19320a387a2cfed954e084f12ef993c8d8b26345001d1bfb3e500"
+        },
+        {
+            "date": 1693926038357,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\success\\sucess-2023-09-05-21-success.log",
+            "hash": "afe3df520c83b0299a98113387e6345853f8019789f630f4768bbab7806408cc"
+        },
+        {
+            "date": 1693931685560,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\success\\sucess-2023-09-05-22-success.log",
+            "hash": "92878f6fccda4229fe1289a2ac701da39d659f435c445f2091d56ac35c7d1a03"
+        },
+        {
+            "date": 1694154279796,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\success\\sucess-2023-09-08-12-success.log",
+            "hash": "ee3d6b38f3667302be2852308008714ad3c65fc4053c91c5dc4f737e4325eb4f"
+        },
+        {
+            "date": 1694156402737,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\success\\sucess-2023-09-08-13-success.log",
+            "hash": "5910f12a4200c39f567921525ba95f35329ec128b03026e8b8d8148001eebbfe"
+        },
+        {
+            "date": 1694160168964,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\success\\sucess-2023-09-08-14-success.log",
+            "hash": "bed151bc321ee2765190444a61e09c7ffb8084f38c0acc6e15292851f310be22"
+        },
+        {
+            "date": 1694164660398,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\success\\sucess-2023-09-08-15-success.log",
+            "hash": "01c5330c9c9016e66173acc7249caa1d8db2f7b3b5e01be5a8c33c86e698ee86"
+        },
+        {
+            "date": 1694167494291,
+            "name": "D:\\Lavel 2\\Project For Use\\logs\\winston\\success\\sucess-2023-09-08-16-success.log",
+            "hash": "0f35ea58b7568fd824f1478abfc05eba83c9d29769dac01720ba6ada4701a358"
+        }
+    ],
+    "hashType": "sha256"
+}
