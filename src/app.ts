@@ -1,6 +1,7 @@
 import cors from 'cors'
 import express, { Application, Request, Response } from 'express'
 import globalErrorHandelar from './app/middlewares/globalErrorHandelar'
+import { adminRoute } from './app/modules/admins/admins.router'
 import { AurhRouth } from './app/modules/auth/auth.route'
 import { cowRoute } from './app/modules/cow/cow.route'
 import { OrderRouter } from './app/modules/order/order.route'
@@ -16,6 +17,7 @@ app.use('/api/v1/auth/', AurhRouth)
 app.use('/api/v1/users/', userRoute)
 app.use('/api/v1/cow/', cowRoute)
 app.use('/api/v1/order/', OrderRouter)
+app.use('/api/v1/admins', adminRoute)
 
 //Defolt Responce
 app.get('/', (req: Request, res: Response) => {
