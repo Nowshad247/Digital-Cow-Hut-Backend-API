@@ -44,6 +44,9 @@
 
 ---
 
+Route: /api/v1/admins/create-admin (POST) - Done
+Route: /api/v1/admins/login (POST)
+
 Create user Demo Data JSON :
 {
 "name": {

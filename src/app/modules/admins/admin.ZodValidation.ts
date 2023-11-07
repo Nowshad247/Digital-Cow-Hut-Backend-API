@@ -12,5 +12,20 @@ const createadminSchema = z.object({
     address: z.string({ required_error: 'Address is required!' }),
   }),
 })
+const loginadminSchema = z.object({
+  body: z.object({
+    phoneNumber: z.string({ required_error: 'Phone Number is required!' }),
+    password: z.string({ required_error: 'Password is required!' }),
+  }),
+})
+const refreshTockenValidation = z.object({
+  cookies: z.object({
+    refreshToken: z.string({ required_error: 'Refresh Token is Required!' }),
+  }),
+})
 
-export default createadminSchema
+export const AdminValidation = {
+  createadminSchema,
+  loginadminSchema,
+  refreshTockenValidation,
+}

@@ -14,3 +14,7 @@ export type IGenericErrorResponse = {
   message: string
   errorMessages: IGenericErrorMessage[]
 }
+export type JWTPayload = {
+  _id: string
+  role: string
+}

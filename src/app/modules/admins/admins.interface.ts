@@ -12,7 +12,18 @@ export type IAdmin = {
   password: string
   address: string
 }
+export type IUserCredential = {
+  phoneNumber: string
+  password: string
+}
+
+// export type IAdminMethods = {
+//   isAdminExist(id: string): Promise<Partial<IAdmin> | null>
+//   isPosswordMatch(givenPassword: string, savePassword: string): Promise<boolean>
+// }
 export type adminModel = {
-  isAdminExist(phoneNumber: string): Pick<IAdmin, '_id' | 'password' | 'role'>
+  isAdminExist(
+    phoneNumber: string,
+  ): Promise<Pick<IAdmin, '_id' | 'password' | 'role'>>
   isPassMatched(givenPass: string, savedPass: string): boolean
 } & Model<IAdmin>
