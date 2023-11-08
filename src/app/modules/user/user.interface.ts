@@ -16,3 +16,7 @@ export type IUser = {
   income?: number
   refreshToken?: string
 }
+export type IpasswordChange = {
+  NewPassword?: string
+  OldPassword?: string
+}

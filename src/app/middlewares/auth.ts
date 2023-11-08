@@ -16,7 +16,7 @@ const auth =
   async (req: CustomRequest, res: Response, next: NextFunction) => {
     try {
       const authorizationToken = req.headers
-      const getToken = authorizationToken.authorization // May be undefined
+      const getToken = authorizationToken.authorization
 
       if (!getToken) {
         throw new ApiError(
@@ -34,7 +34,6 @@ const auth =
       if (role.length && !role.includes(user.role)) {
         throw new ApiError(httpStatus.BAD_REQUEST, 'Unauthorized Access!')
       }
-
       req.user = user
 
       next()

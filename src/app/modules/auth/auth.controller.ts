@@ -1,6 +1,7 @@
 import { Request, RequestHandler, Response } from 'express'
 import httpStatus from 'http-status'
 import config from '../../../config'
+import ApiError from '../../../errors/apiErrors'
 import catchAsync from '../../../utils/catchAsync'
 import sendResponse from '../../../utils/sendResponse'
 import { IUser } from '../user/user.interface'
@@ -40,7 +41,15 @@ const signup: RequestHandler = catchAsync(
 
 const changePassword: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
-    res.send('changePassword')
+    const password = req.body
+    const { refreshToken } = req.cookies
+
+    if (password && refreshToken) {
+      const result = await AurhService.changePassword(password, refreshToken)
+      res.send(result)
+    } else {
+      throw new ApiError(httpStatus.BAD_REQUEST, 'Credential missing')
+    }
   },
 )
 export const authController = { signup, changePassword }

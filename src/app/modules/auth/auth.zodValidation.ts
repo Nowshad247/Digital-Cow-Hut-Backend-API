@@ -16,5 +16,14 @@ const UserZodValidation = z.object({
     income: z.number({ required_error: 'Required 5' }),
   }),
 })
+const changePasswordValidation = z.object({
+  body: z.object({
+    OldPassword: z.string({ required_error: 'Old Password Required' }),
+    NewPassword: z.string({ required_error: 'Old Password Required' }),
+  }),
+})
 
-export default UserZodValidation
+export const authZodValidation = {
+  UserZodValidation,
+  changePasswordValidation,
+}
