@@ -8,4 +8,9 @@ router.post(
   validateRequest(UserZodValidation),
   authController.signup,
 )
+router.get(
+  '/change-password',
+  validateRequest(UserZodValidation),
+  authController.changePassword,
+)
 export const AurhRouth = router

@@ -16,6 +16,10 @@ export type IUserCredential = {
   phoneNumber: string
   password: string
 }
+export type ILoginAdminResponse = {
+  phoneNumber: string
+  password: string
+}
 
 // export type IAdminMethods = {
 //   isAdminExist(id: string): Promise<Partial<IAdmin> | null>

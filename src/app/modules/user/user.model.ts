@@ -1,4 +1,6 @@
+import bcrypt from 'bcrypt'
 import { Schema, model } from 'mongoose'
+import config from '../../../config'
 import { userRole } from './user.controller'
 import { IUser } from './user.interface'
 
@@ -41,6 +43,14 @@ const userSchema = new Schema<IUser>(
   },
   { timestamps: true },
 )
+//Pre Save
+userSchema.pre('save', async function (next) {
+  this.password = await bcrypt.hash(
+    this.password,
+    Number(config.bycript_sold_round),
+  )
+  next()
+})
 // 3. Create a Model.
 const User = model<IUser>('User', userSchema)
 

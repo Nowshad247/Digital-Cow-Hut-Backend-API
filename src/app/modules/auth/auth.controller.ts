@@ -1,5 +1,6 @@
 import { Request, RequestHandler, Response } from 'express'
 import httpStatus from 'http-status'
+import config from '../../../config'
 import catchAsync from '../../../utils/catchAsync'
 import sendResponse from '../../../utils/sendResponse'
 import { IUser } from '../user/user.interface'
@@ -10,6 +11,16 @@ const signup: RequestHandler = catchAsync(
     try {
       const userData = req.body
       const result = await AurhService.createUser(userData)
+
+      if (result?.refreshToken) {
+        const { refreshToken } = result
+        const cookieOption = {
+          secure: config.env === 'production',
+          httpOnly: true,
+        }
+        res.cookie('refreshToken', refreshToken, cookieOption)
+      }
+
       sendResponse<IUser>(res, {
         statusCode: httpStatus.OK,
         success: true,
@@ -26,4 +37,10 @@ const signup: RequestHandler = catchAsync(
     }
   },
 )
-export const authController = { signup }
+
+const changePassword: RequestHandler = catchAsync(
+  async (req: Request, res: Response) => {
+    res.send('changePassword')
+  },
+)
+export const authController = { signup, changePassword }

@@ -14,4 +14,5 @@ export type IUser = {
   address: string
   budget?: number
   income?: number
+  refreshToken?: string
 }
